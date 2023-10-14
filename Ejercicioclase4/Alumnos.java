@@ -1,4 +1,4 @@
-package instituto;
+
 
 public class Alumnos extends Persona{
 	  private int nota;

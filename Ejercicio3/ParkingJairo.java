@@ -1,4 +1,4 @@
-package AccesoDatos.Ejercicio3;
+
 
 public interface ParkingJairo {
 	public boolean hayPlaza();

@@ -1,5 +1,3 @@
-package AccesoDatos.Ejercicio3;
-
 public class ParkingTest {
 	public static void main(String[] args) {
 		VehiculoJairo coche1=new VehiculoJairo("ADE-1113");

@@ -1,4 +1,3 @@
-package AccesoDatos.Ejercicio2;
 
 public class Ordenadortest {
     public static void main(String[] args) {

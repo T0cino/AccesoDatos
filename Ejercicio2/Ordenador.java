@@ -1,4 +1,4 @@
-package AccesoDatos.Ejercicio2;
+
 public class Ordenador {
     private int codigo;
     private int ram;

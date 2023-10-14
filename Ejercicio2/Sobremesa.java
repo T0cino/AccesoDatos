@@ -1,4 +1,4 @@
-package AccesoDatos.Ejercicio2;
+
 
 public class Sobremesa extends Ordenador {
     private String tipoTorre;

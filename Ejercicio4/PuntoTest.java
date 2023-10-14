@@ -1,4 +1,4 @@
-package AccesoDatos.Ejercicio4;
+
 
 public class PuntoTest {
     public static void main(String[] args) {

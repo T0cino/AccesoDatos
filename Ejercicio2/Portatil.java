@@ -1,4 +1,3 @@
-package AccesoDatos.Ejercicio2;
 public class Portatil extends Ordenador {
     private double peso;
 

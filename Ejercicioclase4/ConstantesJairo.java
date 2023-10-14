@@ -1,4 +1,4 @@
-package instituto;
+
 
 public class ConstantesJairo {
 	 public static final int MAX_ESTUDIANTES = 30;

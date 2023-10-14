@@ -1,4 +1,3 @@
-package instituto;
 
 public class Profesor extends Persona{
 	 private String materia;

@@ -1,5 +1,5 @@
 
-package AccesoDatos.Ejercicio4;
+
 import java.util.Objects;
 
 public class Suceso extends Punto3D {
