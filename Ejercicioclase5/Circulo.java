@@ -1,35 +1,25 @@
-package figuras;
 
-public abstract class Circulo extends figuras {
-	public Circulo(String color, double radio) {
-		super(color);
-		this.radio=radio;
-		
-	}
-		private double radio;
 
-		public double getRadio() {
-			return radio;
-		}
+public  class Circulo extends figuras {
+	  public double radio;
 
-		public void setRadio(double radio) {
-			this.radio = radio;
-		}
-		
-		public  double calcularPerimetro() {
-			return Math.PI*2*radio;
-		}
-		public double calcularArea() {
-			return radio*Math.PI;
-		}
+    public Circulo(String color, double radio) {
+        super(color);
+        this.radio = radio;
+    }
 
-		@Override
-		public String toString() {
-			return  " Soy una figura de color"+super.getColor()+""
-					+ "Además soy un polígono y un réctangulo con 4 lados: Mi área es"
-					+calcularArea()+"y mi perimetro es"+calcularPerimetro()
-					 ;
-		}
-		
-		
+    @Override
+    public double calcularArea() {
+        return Math.PI * radio * radio;
+    }
+
+    @Override
+    public double calcularPerimetro() {
+        return 2 * Math.PI * radio;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", soy un cÃ­rculo con Ã¡rea " + calcularArea() + " y perÃ­metro " + calcularPerimetro();
+    }
 }

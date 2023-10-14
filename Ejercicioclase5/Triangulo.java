@@ -1,28 +1,32 @@
-package figuras;
 
-public abstract class Triangulo extends figuras {
+
+public  class Triangulo extends figuras {
 	
-	public Triangulo(String color) {
-		super(color);
-		// TODO Auto-generated constructor stub
-	}
-	private int base;
-	private int altura;
-	public int getBase() {
-		return base;
-	}
-	public void setBase(int base) {
-		this.base = base;
-	}
-	public int getAltura() {
-		return altura;
-	}
-	public void setAltura(int altura) {
-		this.altura = altura;
-	}
-	@Override
-	public String toString() {
-		return "Triangulo [base=" + base + ", altura=" + altura + "]";
-	}
-	
+	public double lado1;
+    public double lado2;
+    public double lado3;
+
+    public Triangulo(String color, double lado1, double lado2, double lado3) {
+        super(color);
+        this.lado1 = lado1;
+        this.lado2 = lado2;
+        this.lado3 = lado3;
+    }
+
+    @Override
+    public double calcularArea() {
+        // Implementa el cálculo del área de un triángulo (por ejemplo, usando la fórmula de Herón)
+        // Ten en cuenta que esta implementación dependerá del tipo de triángulo (equilátero, isósceles, escaleno).
+        return 0.0;
+    }
+
+    @Override
+    public double calcularPerimetro() {
+        return lado1 + lado2 + lado3;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", soy un triángulo con área " + calcularArea() + " y perímetro " + calcularPerimetro();
+    }
 }
